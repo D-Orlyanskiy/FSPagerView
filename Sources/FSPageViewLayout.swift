@@ -10,7 +10,7 @@ import UIKit
 
 class FSPagerViewLayout: UICollectionViewLayout {
     
-    internal var contentSize: CGSize = 0
+    internal var contentSize: CGSize = .zero
     internal var leadingSpacing: CGFloat = 0
     internal var itemSpacing: CGFloat = 0
     internal var needsReprepare = true
